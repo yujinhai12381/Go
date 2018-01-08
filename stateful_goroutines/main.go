@@ -39,7 +39,7 @@ func main() {
 		}
 	}()
 
-	for r := 10; r < 100; r++ {
+	for r := 0; r < 100; r++ {
 		go func() {
 			for {
 				read := &readOp{
